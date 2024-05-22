@@ -1,8 +1,4 @@
-// gaussian-splatting-backward.slang
-// This file contains the implementation of the backward pass for Gaussian splatting using Slang.
-
 #include <slang.h>
-
 
 // Structure to hold Gaussian parameters
 struct Gaussian {
@@ -146,3 +142,4 @@ void ndRasterizeBackwardKernel(
         }
     }
 }
+
